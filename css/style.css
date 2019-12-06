@@ -1,0 +1,72 @@
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#chart1, #chart2 {
+	width: 200px;
+}
+
+#weekdays {
+	width: 400px;
+}
+
+/* ------- BILL STYLES ------- */
+article h2 {
+	margin-top: 0;
+	padding: 2rem;
+	background-color: #F26649;
+	color:white;
+	font-size: 3.4rem;
+}
+article:nth-of-type(2){
+	margin-left: 10rem;
+	margin-top: 1.5rem;
+	width: 30%;
+	border: 1px solid #807F83;
+	box-shadow: 0 0 10px #888;
+}
+article:nth-of-type(2) p{
+	margin: 2rem;
+	font-size: 1.4rem;
+}
+
+article:nth-of-type(2) h3 {
+	margin: 2rem;
+	font-size: 2.4rem;
+	color: #888;
+}
+
+article div:nth-of-type(2) p {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+#grid-container > div > p:first-of-type{
+	margin-bottom: 0;
+	padding: 0.5rem;
+	color: #F26649;
+	font-weight: bold;
+	width: 40rem;
+}
+
+#electricity p:first-of-type{
+	background-color: #EEF7E2;
+}
+
+#delivery p:first-of-type{
+	background-color: #F7E8C6;
+}
+
+#regulatory p:first-of-type{
+	background-color: #D9F4FA;
+}
+
+#electricity, #delivery, #regulatory, #debt {
+	display: flex;
+	justify-content: space-between;
+}
+
+#grid-container > #debt > p:first-of-type{
+	color: #666;
+}
